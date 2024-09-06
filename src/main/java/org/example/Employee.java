@@ -1,5 +1,3 @@
-package org.example;
-
 public class Employee {
     public long id;
     public String firstName;
@@ -7,8 +5,8 @@ public class Employee {
     public String country;
     public int age;
 
-    // Пустой конструктор
     public Employee() {
+
     }
 
     public Employee(long id, String firstName, String lastName, String country, int age) {
